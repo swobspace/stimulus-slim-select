@@ -1,0 +1,18 @@
+= stimulus-polymorphic-select
+
+A stimulus controller for slim-select
+
+== Installation
+
+.Fetch from github
+[source,sh]
+----
+yarn add https://github.com/swobspace/stimulus-slim-select.git
+----
+
+.app/javascript/controllers/index.js
+[source,javascript]
+----
+import SelectController from "@swobspace/stimulus-slim-select"
+application.register("select", SelectController)
+----
